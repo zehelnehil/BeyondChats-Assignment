@@ -83,7 +83,7 @@ To satisfy the "Live Link" requirement, you can deploy this project using free s
 
 ## Submission Details
 -   **GitHub Repo**: Ensure this folder is initialized as a git repo (`git init`) and pushed to a public GitHub repository.
--   **Live Link**: [INSERT YOUR DEPLOYED VERCEL LINK HERE]
+-   **Live Link**: https://beyondchatszehel.vercel.app/
 
 
 ## Architecture Diagram
