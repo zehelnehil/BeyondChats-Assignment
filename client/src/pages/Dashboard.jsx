@@ -30,7 +30,9 @@ const Dashboard = () => {
             await scrapeArticles();
             await fetchArticles();
         } catch (err) {
-            alert('Scraping failed');
+            const msg = err.response?.data?.error || err.message || 'Scraping failed';
+            alert(`Scraping failed: ${msg}. Check console for details.`);
+            console.error('Full error:', err);
         } finally {
             setScraping(false);
         }
