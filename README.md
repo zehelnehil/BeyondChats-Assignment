@@ -1,6 +1,6 @@
-# BeyondChats Assignment
+# BeyondChats AI Studio
 
-Full Stack Web Developer Intern Assignment implementation.
+BeyondChats AI Content Intelligence Platform.
 
 ## Project Structure
 - **server**: Node.js + Express API + Background Worker.

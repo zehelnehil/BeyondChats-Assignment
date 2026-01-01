@@ -19,7 +19,7 @@ function App() {
               </span>
             </a>
             <div className="text-sm font-medium text-slate-500">
-              Intern Assignment
+              <p>&copy; 2025 BeyondChats AI. All rights reserved.</p>
             </div>
           </div>
         </nav>
