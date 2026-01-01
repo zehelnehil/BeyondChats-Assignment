@@ -38,7 +38,7 @@ class SearchService {
             if (topLinks.length === 0) {
                 console.warn('No links found via scraping (likely captcha). Using Mock Data.');
                 return [
-                    { title: 'The State of AI in 2025 - TechCrunch', url: 'https://techcrunch.com/2025/01/15/state-of-ai-chatbots', content: 'In 2025, AI chatbots have moved beyond simple scripts. TechCrunch reports a 300% increase in enterprise adoption, with context-aware models reducing support tickets by 45%.' },
+                    { title: 'The State of AI in 2026 - TechCrunch', url: 'https://techcrunch.com/2026/01/15/state-of-ai-chatbots', content: 'In 2026, AI chatbots have moved beyond simple scripts. TechCrunch reports a 300% increase in enterprise adoption, with context-aware models reducing support tickets by 45%.' },
                     { title: 'Why Business Automation Matters - HBR', url: 'https://hbr.org/2024/12/the-automation-advantage', content: 'Harvard Business Review highlights that companies utilizing advanced automation for customer interactions see a 20% increase in customer lifetime value (CLV) due to faster resolution times.' }
                 ];
             }
@@ -50,7 +50,7 @@ class SearchService {
             // Fallback
             return [
                 { title: 'AI Healthcare Trends - Forbes', url: 'https://www.forbes.com/sites/healthcare-ai-revolution', content: 'Forbes notes that AI in healthcare is not just about diagnosis but about patient engagement. Chatbots are now capable of conducting preliminary empathetic screenings.' },
-                { title: 'The Generative AI Boom - Wired', url: 'https://www.wired.com/story/generative-ai-boom-2025', content: 'Wired explores the explosion of Generative AI tools. The key differentiator for businesses is no longer just having AI, but having AI that integrates seamlessly with existing data silos.' }
+                { title: 'The Generative AI Boom - Wired', url: 'https://www.wired.com/story/generative-ai-boom-2026', content: 'Wired explores the explosion of Generative AI tools. The key differentiator for businesses is no longer just having AI, but having AI that integrates seamlessly with existing data silos.' }
             ];
         }
     }
