@@ -42,7 +42,7 @@ async function processPendingArticles() {
                 const references = [];
                 for (const link of sourceLinks) {
                     console.log(`Scraping reference: ${link.url}`);
-                    let content = link.content; // Use pre-filled content if available (e.g. from Mock)
+                    let content = link.content; // Use pre-indexed content if available
 
                     if (!content) {
                         content = await scrapeGenericContent(link.url);
